@@ -4,7 +4,7 @@ title: '#4471 · two causes'
 owner: maciekgrzybek
 status: open
 reviewed: 2026-10-28
-signature: maciekgrzybek
+signature: "v1.eyJzdWIiOiIxNTI0IiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMxOTM4NjQsImV4cCI6MTc5MzI4MDI2NH0.JeKcN1840s_xhYD6CpZ-fWlnW8o7WNasDtVNYzMyhSY"
 ---
 
 <script>
