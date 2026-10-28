@@ -1,0 +1,26 @@
+---
+layout: runbook
+title: '#4471 · two causes'
+owner: maciekgrzybek
+status: open
+reviewed: 2026-10-28
+signature: maciekgrzybek
+---
+
+<script>
+  import CauseTable from '#lib/kb/CauseTable.svelte';
+  import Callout from '#lib/kb/Callout.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+#4471 merged every date report into one ticket and marked it known. The reports are two causes. One is the shared parser reading the month first while these tenants write the day first. The other is booking-v3: the form prints a month-first hint, people type that, and the form reads the day first.
+
+<Callout kind="warn">
+One ticket per cause. The smaller cause has none.
+</Callout>
+
+## What #4471 actually holds
+
+<CauseTable ticket={4471} />
+
+<RenderStamp {signature} />
